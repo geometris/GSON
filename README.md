@@ -146,12 +146,3 @@ If your devices do not use Geometris SIMs, you'll need to integrate via the Twil
 * You can click on the files icon to return to your project.
 </p>
 
-) 
-
-<p>You can use this to automatically place the gson script schema into your project by clicking "Get Schema" on the menu. This will place the file 'gsonscriptschema.json' under a subfolder named 'schema'. You may now reference this file in your document:</p>
-<code>
-{
-	"$schema":"./schema/gsonscriptschema.json"
-}
-</code>
-<p>Doing this enables the json schema for the Visual Studio Code editor, which will provide autocompletion to make creation of a script easier.</p>
